@@ -59,6 +59,8 @@ supported_commands_by_ecu:
   - 019D:FUEL_RATE_ALT,VFUEL_RATE
   - 019E:EXH_RATE
   - 01A6:ODO
+  - DB33.012F:FLI
+  - DB33.0131:CLR_DIST
 unsupported_commands_by_ecu:
   "707":
   - 707.727.220103:NISSAN_TURN_SIGNAL_LEFT,NISSAN_TURN_SIGNAL_RIGHT
@@ -107,6 +109,3 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.221186
   - 7E0.7E8.22122B:NISSAN_CC_S
   - 7E0.7E8.221266
-  "DB33":
-  - DB33.012F:FLI
-  - DB33.0131:CLR_DIST
