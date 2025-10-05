@@ -56,6 +56,8 @@ supported_commands_by_ecu:
   - 019E:EXH_RATE
   - 01A6:ODO
 unsupported_commands_by_ecu:
+  "707":
+  - 707.727.220103:NISSAN_TURN_SIGNAL_LEFT,NISSAN_TURN_SIGNAL_RIGHT
   "743":
   - 743.763.220E2E|fc=1:NISSAN_RANGE
   "797":
