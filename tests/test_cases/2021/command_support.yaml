@@ -61,6 +61,7 @@ supported_commands_by_ecu:
   - 01A6:ODO
   - DB33.012F:FLI
   - DB33.0131:CLR_DIST
+  - DB33.01A6:ODO
 unsupported_commands_by_ecu:
   "707":
   - 707.727.220103:NISSAN_TURN_SIGNAL_LEFT,NISSAN_TURN_SIGNAL_RIGHT
