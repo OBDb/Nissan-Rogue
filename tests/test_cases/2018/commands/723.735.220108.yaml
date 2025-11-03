@@ -1,0 +1,17 @@
+command_id: 723.735.220108
+test_cases:
+- expected_values:
+    NISSAN_RADAR_SPEED: 0
+  response: '735056201080000'
+- expected_values:
+    NISSAN_RADAR_SPEED: -11.7
+  response: 73505620108FF8B
+- expected_values:
+    NISSAN_RADAR_SPEED: -7.1
+  response: 73505620108FFB9
+- expected_values:
+    NISSAN_RADAR_SPEED: -4
+  response: 73505620108FFD8
+- expected_values:
+    NISSAN_RADAR_SPEED: -0.1
+  response: 73505620108FFFF
