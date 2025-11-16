@@ -79,7 +79,7 @@ supported_commands_by_ecu:
   - 7E0.014D:MIL_TIME
   - 7E0.014E:CLR_TIME
   - 7E0.0151:FUEL_TYP
-  - 7E0.7E8.22122B:NISSAN_CC_S
+  - 7E0.22122B|din=C0,dout=81:NI_CRUISE_VSS_SET
 unsupported_commands_by_ecu:
   "707":
   - 707.727.220103:NISSAN_TURN_SIGNAL_LEFT,NISSAN_TURN_SIGNAL_RIGHT
