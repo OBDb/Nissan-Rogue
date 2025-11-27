@@ -1,0 +1,32 @@
+command_id: 7E0.0105
+test_cases:
+- expected_values:
+    ECT: 8
+  response: '7E803410530'
+- expected_values:
+    ECT: 16
+  response: '7E803410538'
+- expected_values:
+    ECT: 27
+  response: '7E803410543'
+- expected_values:
+    ECT: 35
+  response: 7E80341054B
+- expected_values:
+    ECT: 39
+  response: 7E80341054F
+- expected_values:
+    ECT: 45
+  response: '7E803410555'
+- expected_values:
+    ECT: 48
+  response: '7E803410558'
+- expected_values:
+    ECT: 51
+  response: 7E80341055B
+- expected_values:
+    ECT: 55
+  response: 7E80341055F
+- expected_values:
+    ECT: 59
+  response: '7E803410563'
