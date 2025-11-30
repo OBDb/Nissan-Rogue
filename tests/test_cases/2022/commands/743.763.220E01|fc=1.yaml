@@ -9,3 +9,21 @@ test_cases:
 - expected_values:
     NISSAN_ODO: 102670
   response: 76306620E0101910E
+- expected_values:
+    NISSAN_ODO: 102671
+  response: 76306620E0101910F
+- expected_values:
+    NISSAN_ODO: 102672
+  response: '76306620E01019110'
+- expected_values:
+    NISSAN_ODO: 102673
+  response: '76306620E01019111'
+- expected_values:
+    NISSAN_ODO: 102674
+  response: '76306620E01019112'
+- expected_values:
+    NISSAN_ODO: 102675
+  response: '76306620E01019113'
+- expected_values:
+    NISSAN_ODO: 102676
+  response: '76306620E01019114'
