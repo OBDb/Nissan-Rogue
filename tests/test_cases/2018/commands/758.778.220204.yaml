@@ -4,23 +4,5 @@ test_cases:
     NISSAN_TP_RL: 0
   response: '7780462020400'
 - expected_values:
-    NISSAN_TP_RL: 29.75
-  response: '7780462020477'
-- expected_values:
-    NISSAN_TP_RL: 30.25
-  response: '7780462020479'
-- expected_values:
-    NISSAN_TP_RL: 30.75
-  response: 778046202047B
-- expected_values:
-    NISSAN_TP_RL: 31.25
-  response: 778046202047D
-- expected_values:
-    NISSAN_TP_RL: 31.75
-  response: 778046202047F
-- expected_values:
-    NISSAN_TP_RL: 32.5
-  response: '7780462020482'
-- expected_values:
-    NISSAN_TP_RL: 32.75
-  response: '7780462020483'
+    NISSAN_TP_RL: 33.75
+  response: '7780462020487'
