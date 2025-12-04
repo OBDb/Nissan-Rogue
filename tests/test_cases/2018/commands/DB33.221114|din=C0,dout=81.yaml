@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     NI_FLI: 20.39216
   response: '7E80462111434'
+- expected_values:
+    NI_FLI: 21.17647
+  response: '7E80462111436'
+- expected_values:
+    NI_FLI: 21.56863
+  response: '7E80462111437'

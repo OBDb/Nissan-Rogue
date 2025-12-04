@@ -1,0 +1,5 @@
+command_id: DB33.221178|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_FAN_DUTY: 40
+  response: '7E80462117828'
