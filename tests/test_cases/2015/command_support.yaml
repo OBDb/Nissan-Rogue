@@ -49,6 +49,7 @@ supported_commands_by_ecu:
   - 0151:FUEL_TYP
   - 7E0.0105:ECT
   - 7E0.0124:LAMBDA11_VOLT,O2S11_VOLT
+  - 7E0.012F:FLI
   - 7E0.0131:CLR_DIST
   - 7E0.0144:EQ_RAT
   - 7E0.7E8.221101|din=C0,dout=81:NI_ECT
