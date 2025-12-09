@@ -7,5 +7,5 @@ test_cases:
     NISSAN_RADAR_DISTANCE: 51.1
   response: 7350562010701FF
 - expected_values:
-    NISSAN_RADAR_DISTANCE: 77.5
-  response: '735056201070307'
+    NISSAN_RADAR_DISTANCE: 77.3
+  response: '735056201070305'
