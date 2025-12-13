@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     NISSAN_TP_FL: 31.75
   response: 778046202017F
+- expected_values:
+    NISSAN_TP_FL: 32.75
+  response: '7780462020183'
