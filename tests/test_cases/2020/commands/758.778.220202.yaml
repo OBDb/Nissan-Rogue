@@ -4,5 +4,5 @@ test_cases:
     NISSAN_TP_FR: 0
   response: '7780462020200'
 - expected_values:
-    NISSAN_TP_FR: 35.25
-  response: 778046202028D
+    NISSAN_TP_FR: 36.75
+  response: '7780462020293'
