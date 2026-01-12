@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     NI_AFRATB1S1: 25.09804
   response: 7E80462114E40
+- expected_values:
+    NI_AFRATB1S1: 30.98039
+  response: 7E80462114E4F

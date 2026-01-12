@@ -1,6 +1,9 @@
 command_id: DB33.221114|din=C0,dout=81
 test_cases:
 - expected_values:
+    NI_FLI: 18.43137
+  response: 7E8046211142F
+- expected_values:
     NI_FLI: 20.39216
   response: '7E80462111434'
 - expected_values:
