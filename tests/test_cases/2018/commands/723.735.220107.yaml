@@ -1,6 +1,9 @@
 command_id: 723.735.220107
 test_cases:
 - expected_values:
+    NISSAN_RADAR_DISTANCE: 3.4
+  response: "2201071\n735 05 62 01 07 00 22 "
+- expected_values:
     NISSAN_RADAR_DISTANCE: 0
   response: '735056201070000'
 - expected_values:
