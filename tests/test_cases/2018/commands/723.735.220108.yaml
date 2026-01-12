@@ -2,6 +2,9 @@ command_id: 723.735.220108
 test_cases:
 - expected_values:
     NISSAN_RADAR_SPEED: 0
+  response: "2201081\n735 05 62 01 08 00 00 "
+- expected_values:
+    NISSAN_RADAR_SPEED: 0
   response: '735056201080000'
 - expected_values:
     NISSAN_RADAR_SPEED: -25.5
