@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     NI_ECT: 73
   response: 7E8046211017B
+- expected_values:
+    NI_ECT: 86
+  response: '7E80462110188'
