@@ -7,5 +7,11 @@ test_cases:
     NI_FUEL_T2: 7
   response: '7E80462111139'
 - expected_values:
+    NI_FUEL_T2: 21
+  response: '7E80462111147'
+- expected_values:
+    NI_FUEL_T2: 22
+  response: '7E80462111148'
+- expected_values:
     NI_FUEL_T2: 32
   response: '7E80462111152'
