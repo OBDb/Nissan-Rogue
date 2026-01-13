@@ -6,29 +6,11 @@ test_cases:
     2212091
     7E80562120901DB
 - expected_values:
-    NI_MAF: 3.47
-  response: 7E805621209015B
+    NI_MAF: 0
+  response: '7E8056212090000'
 - expected_values:
-    NI_MAF: 3.86
-  response: '7E8056212090182'
+    NI_MAF: 5.1
+  response: 7E80562120901FE
 - expected_values:
-    NI_MAF: 3.92
-  response: '7E8056212090188'
-- expected_values:
-    NI_MAF: 3.97
-  response: 7E805621209018D
-- expected_values:
-    NI_MAF: 5.74
-  response: 7E805621209023E
-- expected_values:
-    NI_MAF: 5.94
-  response: '7E8056212090252'
-- expected_values:
-    NI_MAF: 5.96
-  response: '7E8056212090254'
-- expected_values:
-    NI_MAF: 8.51
-  response: '7E8056212090353'
-- expected_values:
-    NI_MAF: 9.42
-  response: 7E80562120903AE
+    NI_MAF: 125.08
+  response: 7E80562120930DC
