@@ -7,5 +7,5 @@ test_cases:
     NISSAN_YAW_RATE: -25.7
   response: 73505620101FEFF
 - expected_values:
-    NISSAN_YAW_RATE: -24.8
-  response: 73505620101FF08
+    NISSAN_YAW_RATE: -24.9
+  response: 73505620101FF07
