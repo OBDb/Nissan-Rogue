@@ -4,5 +4,8 @@ test_cases:
     NI_FUEL_T2: -5
   response: 7E8046211112D
 - expected_values:
+    NI_FUEL_T2: 2
+  response: '7E80462111134'
+- expected_values:
     NI_FUEL_T2: 6
   response: '7E80462111138'
