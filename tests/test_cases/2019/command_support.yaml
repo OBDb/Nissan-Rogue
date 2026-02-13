@@ -121,6 +121,7 @@ supported_commands_by_ecu:
   - 7E0.7E8.221164|din=C0,dout=81:NI_EXHVTB1
   - 7E0.7E8.221178|din=C0,dout=81:NI_FAN_DUTY
   - 7E0.7E8.221201|din=C0,dout=81:NI_RPM
+  - 7E0.7E8.221203
   - 7E0.7E8.221203|din=C0,dout=81:NI_MIL_DIST
   - 7E0.7E8.221208|din=C0,dout=81:NI_MAFVB1
   - 7E0.7E8.221209|din=C0,dout=81:NI_MAF
