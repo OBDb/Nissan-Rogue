@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     NISSAN_TP_RR: 33.5
   response: '7780462020386'
+- expected_values:
+    NISSAN_TP_RR: 34
+  response: '7780462020388'
