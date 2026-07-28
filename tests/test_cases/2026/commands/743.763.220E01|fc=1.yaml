@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     NISSAN_ODO: 460
   response: 76306620E010001CC
+- expected_values:
+    NISSAN_ODO: 12656
+  response: '76306620E01003170'
