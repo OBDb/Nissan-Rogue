@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     NI_MIL_DIST: 0
   response: '7E8056212030000'
+- expected_values:
+    NI_MIL_DIST: 10
+  response: 7E805621203000A
