@@ -1,23 +1,29 @@
 command_id: 758.778.220204
 test_cases:
 - expected_values:
-    NISSAN_TP_RL: 0
+    NISSAN_RL_TIRE_P: 0
   response: '7780462020400'
 - expected_values:
-    NISSAN_TP_RL: 31
+    NISSAN_RL_TIRE_P: 31
+    NISSAN_TP_RL_V2: 31
   response: 778046202047C
 - expected_values:
-    NISSAN_TP_RL: 31.5
+    NISSAN_RL_TIRE_P: 31.5
+    NISSAN_TP_RL_V2: 31.5
   response: 778046202047E
 - expected_values:
-    NISSAN_TP_RL: 31.75
+    NISSAN_RL_TIRE_P: 31.75
+    NISSAN_TP_RL_V2: 31.75
   response: 778046202047F
 - expected_values:
-    NISSAN_TP_RL: 32
+    NISSAN_RL_TIRE_P: 32
+    NISSAN_TP_RL_V2: 32
   response: '7780462020480'
 - expected_values:
-    NISSAN_TP_RL: 32.75
+    NISSAN_RL_TIRE_P: 32.75
+    NISSAN_TP_RL_V2: 32.75
   response: '7780462020483'
 - expected_values:
-    NISSAN_TP_RL: 34
+    NISSAN_RL_TIRE_P: 34
+    NISSAN_TP_RL_V2: 34
   response: '7780462020488'

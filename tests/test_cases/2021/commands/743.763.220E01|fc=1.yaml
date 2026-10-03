@@ -2,13 +2,17 @@ command_id: 743.763.220E01|fc=1
 test_cases:
 - expected_values:
     NISSAN_ODO: 69415
+    NISSAN_ODO_PRE25: 69415
   response: 76306620E01010F27
 - expected_values:
     NISSAN_ODO: 69916
+    NISSAN_ODO_PRE25: 69916
   response: 76306620E0101111C
 - expected_values:
     NISSAN_ODO: 94362
+    NISSAN_ODO_PRE25: 94362
   response: 76306620E0101709A
 - expected_values:
     NISSAN_ODO: 94452
+    NISSAN_ODO_PRE25: 94452
   response: 76306620E010170F4
