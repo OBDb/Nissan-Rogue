@@ -1,5 +1,5 @@
 command_id: 758.778.220202
 test_cases:
 - expected_values:
-    NISSAN_FR_TIRE_P: 0
+    ROGUE_TP_FR_V2: null
   response: '7780462020200'

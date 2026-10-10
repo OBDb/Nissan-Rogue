@@ -1,26 +1,20 @@
 command_id: 743.763.220E01|fc=1
 test_cases:
 - expected_values:
-    NISSAN_ODO: 1020
-    NISSAN_ODO_PRE25: 1020
+    ROGUE_ODO: 1020
   response: 76306620E010003FC
 - expected_values:
-    NISSAN_ODO: 1021
-    NISSAN_ODO_PRE25: 1021
+    ROGUE_ODO: 1021
   response: 76306620E010003FD
 - expected_values:
-    NISSAN_ODO: 1022
-    NISSAN_ODO_PRE25: 1022
+    ROGUE_ODO: 1022
   response: 76306620E010003FE
 - expected_values:
-    NISSAN_ODO: 1023
-    NISSAN_ODO_PRE25: 1023
+    ROGUE_ODO: 1023
   response: 76306620E010003FF
 - expected_values:
-    NISSAN_ODO: 1024
-    NISSAN_ODO_PRE25: 1024
+    ROGUE_ODO: 1024
   response: '76306620E01000400'
 - expected_values:
-    NISSAN_ODO: 1025
-    NISSAN_ODO_PRE25: 1025
+    ROGUE_ODO: 1025
   response: '76306620E01000401'
