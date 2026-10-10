@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221111
+test_cases:
+- expected_values:
+    ROGUE_FUEL_T_7E0: 2
+  response: '7E80462111134'
+- expected_values:
+    ROGUE_FUEL_T_7E0: 7
+  response: '7E80462111139'
+- expected_values:
+    ROGUE_FUEL_T_7E0: 21
+  response: '7E80462111147'
+- expected_values:
+    ROGUE_FUEL_T_7E0: 22
+  response: '7E80462111148'
+- expected_values:
+    ROGUE_FUEL_T_7E0: 32
+  response: '7E80462111152'

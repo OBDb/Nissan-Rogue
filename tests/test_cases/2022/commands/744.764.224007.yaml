@@ -1,14 +1,14 @@
 command_id: 744.764.224007
 test_cases:
 - expected_values:
-    NISSAN_AC_STATUS: 0
+    ROGUE_AC_STATUS: 0
   response: '7640762400700000000'
 - expected_values:
-    NISSAN_AC_STATUS: 0
+    ROGUE_AC_STATUS: 0
   response: '7640762400700201000'
 - expected_values:
-    NISSAN_AC_STATUS: 9
+    ROGUE_AC_STATUS: 9
   response: '7640762400709601000'
 - expected_values:
-    NISSAN_AC_STATUS: 50
+    ROGUE_AC_STATUS: 50
   response: '7640762400732001000'

@@ -1,0 +1,16 @@
+command_id: 7E0.7E8.221209
+test_cases:
+- expected_values:
+    ROGUE_MAF: 4.75
+  response: |-
+    2212091
+    7E80562120901DB
+- expected_values:
+    ROGUE_MAF: 0
+  response: '7E8056212090000'
+- expected_values:
+    ROGUE_MAF: 12.79
+  response: 7E80562120904FF
+- expected_values:
+    ROGUE_MAF: 125.08
+  response: 7E80562120930DC

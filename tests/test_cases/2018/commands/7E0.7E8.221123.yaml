@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221123
+test_cases:
+- expected_values:
+    ROGUE_F_RAT_ADJ: -4
+  response: '7E80462112360'
+- expected_values:
+    ROGUE_F_RAT_ADJ: -2
+  response: '7E80462112362'
+- expected_values:
+    ROGUE_F_RAT_ADJ: -1
+  response: '7E80462112363'

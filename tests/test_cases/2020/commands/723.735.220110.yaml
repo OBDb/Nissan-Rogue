@@ -1,11 +1,11 @@
 command_id: 723.735.220110
 test_cases:
 - expected_values:
-    NISSAN_STEER_ANGLE: 0
+    ROGUE_STEER_ANGLE: 0
   response: '735056201100000'
 - expected_values:
-    NISSAN_STEER_ANGLE: 204.7
+    ROGUE_STEER_ANGLE: 204.7
   response: 7350562011007FF
 - expected_values:
-    NISSAN_STEER_ANGLE: -25.6
+    ROGUE_STEER_ANGLE: -25.6
   response: 73505620110FF00

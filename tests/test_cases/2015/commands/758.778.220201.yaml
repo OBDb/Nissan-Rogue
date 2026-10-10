@@ -1,29 +1,23 @@
 command_id: 758.778.220201
 test_cases:
 - expected_values:
-    NISSAN_FL_TIRE_P: 0
+    ROGUE_TP_FL_V2: null
   response: '7780462020100'
 - expected_values:
-    NISSAN_FL_TIRE_P: 31
-    NISSAN_TP_FL_V2: 31
+    ROGUE_TP_FL_V2: 31
   response: 778046202017C
 - expected_values:
-    NISSAN_FL_TIRE_P: 31.25
-    NISSAN_TP_FL_V2: 31.25
+    ROGUE_TP_FL_V2: 31.25
   response: 778046202017D
 - expected_values:
-    NISSAN_FL_TIRE_P: 31.75
-    NISSAN_TP_FL_V2: 31.75
+    ROGUE_TP_FL_V2: 31.75
   response: 778046202017F
 - expected_values:
-    NISSAN_FL_TIRE_P: 32.25
-    NISSAN_TP_FL_V2: 32.25
+    ROGUE_TP_FL_V2: 32.25
   response: '7780462020181'
 - expected_values:
-    NISSAN_FL_TIRE_P: 32.75
-    NISSAN_TP_FL_V2: 32.75
+    ROGUE_TP_FL_V2: 32.75
   response: '7780462020183'
 - expected_values:
-    NISSAN_FL_TIRE_P: 34.25
-    NISSAN_TP_FL_V2: 34.25
+    ROGUE_TP_FL_V2: 34.25
   response: '7780462020189'

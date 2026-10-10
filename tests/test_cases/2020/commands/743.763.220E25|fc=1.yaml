@@ -1,42 +1,32 @@
 command_id: 743.763.220E25|fc=1
 test_cases:
 - expected_values:
-    NISSAN_TP_FR: null
-    NISSAN_TP_FR_743: null
+    ROGUE_TP_FR_743: null
   response: '76304620E2500'
 - expected_values:
-    NISSAN_TP_FR: 229.25069
-    NISSAN_TP_FR_743: 33.25
+    ROGUE_TP_FR_743: 33.25
   response: '76304620E2585'
 - expected_values:
-    NISSAN_TP_FR: 230.97438
-    NISSAN_TP_FR_743: 33.5
+    ROGUE_TP_FR_743: 33.5
   response: '76304620E2586'
 - expected_values:
-    NISSAN_TP_FR: 232.69807
-    NISSAN_TP_FR_743: 33.75
+    ROGUE_TP_FR_743: 33.75
   response: '76304620E2587'
 - expected_values:
-    NISSAN_TP_FR: 234.42176
-    NISSAN_TP_FR_743: 34
+    ROGUE_TP_FR_743: 34
   response: '76304620E2588'
 - expected_values:
-    NISSAN_TP_FR: 236.14545
-    NISSAN_TP_FR_743: 34.25
+    ROGUE_TP_FR_743: 34.25
   response: '76304620E2589'
 - expected_values:
-    NISSAN_TP_FR: 237.86914
-    NISSAN_TP_FR_743: 34.5
+    ROGUE_TP_FR_743: 34.5
   response: 76304620E258A
 - expected_values:
-    NISSAN_TP_FR: 239.59283
-    NISSAN_TP_FR_743: 34.75
+    ROGUE_TP_FR_743: 34.75
   response: 76304620E258B
 - expected_values:
-    NISSAN_TP_FR: 241.31652
-    NISSAN_TP_FR_743: 35
+    ROGUE_TP_FR_743: 35
   response: 76304620E258C
 - expected_values:
-    NISSAN_TP_FR: 243.04021
-    NISSAN_TP_FR_743: 35.25
+    ROGUE_TP_FR_743: 35.25
   response: 76304620E258D
