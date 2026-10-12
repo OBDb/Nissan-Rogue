@@ -4,5 +4,8 @@ test_cases:
     ROGUE_TP_RR_V2: null
   response: '7780462020300'
 - expected_values:
+    ROGUE_TP_RR_V2: 26.75
+  response: 778046202036B
+- expected_values:
     ROGUE_TP_RR_V2: 37.5
   response: '7780462020396'
