@@ -128,6 +128,10 @@
   "signals": [
     {"id": "ROGUE_TPW_RL", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure, warning"}
   ]},
+{ "hdr": "797", "rax": "79A", "fcm1": true, "dbg": true, "cmd": {"22": "1155"}, "freq": 30,
+  "signals": [
+    {"id": "ROGUE_RANGE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Range shown on the display", "suggestedMetric": "fuelRange"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "69"}, "freq": 1,
   "signals": [
     {"id": "ROGUE_ALTERNATOR_SETPOINT_V", "path": "Battery", "fmt": { "len": 16, "max": 1310, "div": 50, "unit": "volts" }, "name": "ALTERNATOR set point VOLTAGE"}
