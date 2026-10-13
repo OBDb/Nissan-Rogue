@@ -11,8 +11,8 @@ test_cases:
     7480322F1A0
     7640462F4677E
 - expected_values:
-    ROGUE_ECT: 39
-  response: 7640462F4674F
+    ROGUE_ECT: 30
+  response: 7640462F46746
 - expected_values:
     ROGUE_ECT: 81
   response: |-
