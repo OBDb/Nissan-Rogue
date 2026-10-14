@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221206|din=C0,dout=81
+test_cases:
+- expected_values:
+    ROGUE_TCM_PRI_P_V: 0.80156
+  response: 7E90562120600A4
+- expected_values:
+    ROGUE_TCM_PRI_P_V: 0.80645
+  response: 7E90562120600A5
+- expected_values:
+    ROGUE_TCM_PRI_P_V: 0.81134
+  response: 7E90562120600A6

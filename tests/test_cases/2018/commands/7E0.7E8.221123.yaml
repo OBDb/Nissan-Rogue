@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     ROGUE_F_RAT_ADJ: -1
   response: '7E80462112363'
+- expected_values:
+    ROGUE_F_RAT_ADJ: 1
+  response: '7E80462112365'
+- expected_values:
+    ROGUE_F_RAT_ADJ: 2
+  response: '7E80462112366'

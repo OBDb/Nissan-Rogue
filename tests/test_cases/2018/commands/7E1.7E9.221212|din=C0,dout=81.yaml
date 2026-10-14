@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221212|din=C0,dout=81
+test_cases:
+- expected_values:
+    ROGUE_TCM_ENG_TQ_ACT: 5
+  response: '7E9056212120032'
+- expected_values:
+    ROGUE_TCM_ENG_TQ_ACT: 7
+  response: '7E9056212120046'
+- expected_values:
+    ROGUE_TCM_ENG_TQ_ACT: 8.5
+  response: '7E9056212120055'

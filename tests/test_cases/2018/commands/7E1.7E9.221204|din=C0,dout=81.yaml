@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221204|din=C0,dout=81
+test_cases:
+- expected_values:
+    ROGUE_TCM_RPM: 665
+  response: '7E9056212040299'
+- expected_values:
+    ROGUE_TCM_RPM: 687
+  response: 7E90562120402AF
+- expected_values:
+    ROGUE_TCM_RPM: 690
+  response: 7E90562120402B2

@@ -1,0 +1,5 @@
+command_id: 740.760.221209
+test_cases:
+- expected_values:
+    ROGUE_BRAKE_MC_P: -2
+  response: 76005621209FFFE
