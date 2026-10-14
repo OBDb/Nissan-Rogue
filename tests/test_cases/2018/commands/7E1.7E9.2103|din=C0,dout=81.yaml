@@ -1,0 +1,10 @@
+command_id: 7E1.7E9.2103|din=C0,dout=81
+test_cases:
+- expected_values:
+    ROGUE_TRANS_ATF: 2456
+  response: '7E906610300000998'
+- expected_values:
+    ROGUE_TRANS_ATF: 2456
+  response: |-
+    7E92400000004FFFFFF
+    7E906610300000998

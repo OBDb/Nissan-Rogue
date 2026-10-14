@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22120E|din=C0,dout=81
+test_cases:
+- expected_values:
+    ROGUE_TCM_SEC_RPM_2: 43
+  response: 7E90562120E002B
