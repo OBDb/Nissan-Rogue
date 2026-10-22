@@ -37,7 +37,7 @@
   "signals": [
     {"id": "ROGUE_BRAKE_MC_P", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Brake master cylinder pressure count"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"21": "01"}, "freq": 30, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"21": "01"}, "freq": 30, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "ROGUE_ODO_METER", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -239,7 +239,7 @@
   "signals": [
     {"id": "ROGUE_VVT_EOT", "path": "Engine", "fmt": { "len": 16, "max": 1262, "min": -273, "mul": 3, "div": 128, "add": -273, "unit": "celsius" }, "name": "Variable valve timing oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1307"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1307"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "ROGUE_AC_COMP",        "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Air conditioning compressor"},
     {"id": "ROGUE_IDLE_CTRL_MODE", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Idle control mode"}
@@ -249,7 +249,7 @@
     {"id": "ROGUE_BRAKE_SWITCH_NUMBER_2", "path": "Control", "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "BRAKE SWITCH, number 2"},
     {"id": "ROGUE_BRAKE_SWITCH_NUMBER_1", "path": "Control", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "BRAKE SWITCH, number 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1313"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E0", "rax": "7E8", "din": "C0", "dout": "81", "cmd": {"22": "1313"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "ROGUE_COOLING_FAN_LOW",  "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan low"},
     {"id": "ROGUE_COOLING_FAN_HIGH", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan high"}
@@ -332,7 +332,7 @@
   "signals": [
     {"id": "ROGUE_GEARBOX_RAT", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gearbox ratio"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"21": "01"}, "freq": 5,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"21": "01"}, "freq": 5, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "ROGUE_OUTPUT_SPD",   "path": "Movement",     "fmt": {"bix": 40,  "len": 16, "max": 65535,                                                              "unit": "rpm"        }, "name": "Output speed"},
     {"id": "ROGUE_TURBINE_SPD",  "path": "Movement",     "fmt": {"bix": 56,  "len": 16, "max": 65535,                                                              "unit": "rpm"        }, "name": "Turbine speed"},
@@ -340,11 +340,11 @@
     {"id": "ROGUE_ATF_T_VAR_1",  "path": "Transmission", "fmt": {"bix": 152, "len": 8,  "max": 392,   "min": -67,    "mul": 9, "div": 5, "add": -67,               "unit": "fahrenheit" }, "name": "Transmission fluid temperature, variant 1"},
     {"id": "ROGUE_ATF_T_VAR_2",  "path": "Transmission", "fmt": {"bix": 160, "len": 8,  "max": 392,   "min": -67,    "mul": 9, "div": 5, "add": -67,               "unit": "fahrenheit" }, "name": "Transmission fluid temperature, variant 2"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"21": "03"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017], "from": 2019 },
   "signals": [
     {"id": "ROGUE_TRANS_ATF", "path": "Transmission", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Transmission ATF deterioration date"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"21": "10"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"21": "10"}, "freq": 1, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "ROGUE_TRANS_B",                   "path": "Transmission", "fmt": {            "len": 16, "max": 65535,           "unit": "scalar" }, "name": "Transmission-B"},
     {"id": "ROGUE_TRANS_WORK_HOURS",          "path": "Transmission", "fmt": {"bix": 32,  "len": 16, "max": 10922, "div": 6, "unit": "hours"  }, "name": "Transmission work hours"},
