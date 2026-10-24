@@ -4,5 +4,8 @@ test_cases:
     ROGUE_ECT: 0
   response: 7640462F46728
 - expected_values:
-    ROGUE_ECT: 214
+    ROGUE_ECT: 99
+  response: 7640462F4678B
+- expected_values:
+    ROGUE_ECT: null
   response: 7640462F467FE

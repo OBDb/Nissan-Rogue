@@ -99,7 +99,7 @@
   ]},
 { "hdr": "744", "rax": "764", "cmd": {"22": "F467"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2025], "from": 2027 },
   "signals": [
-    {"id": "ROGUE_ECT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine coolant temperature"}
+    {"id": "ROGUE_ECT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "nullmax": 214, "unit": "celsius" }, "name": "Engine coolant temperature"}
   ]},
 { "hdr": "758", "rax": "778", "cmd": {"22": "0201"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017], "from": 2021 },
   "signals": [
