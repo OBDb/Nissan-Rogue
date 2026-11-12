@@ -43,7 +43,7 @@
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E01"}, "freq": 1, "dbgfilter": { "to": 2017, "years": [2019], "from": 2027 },
   "signals": [
-    {"id": "ROGUE_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "ROGUE_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019], "from": 2027 },
   "signals": [
