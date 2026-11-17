@@ -1,8 +1,8 @@
-command_id: 744.764.22F467
+command_id: 744.764.22F467|f=2021-;-2013
 test_cases:
 - expected_values:
-    ROGUE_ECT: -9
-  response: 7640462F4671F
+    ROGUE_ECT: 0
+  response: 7640462F46728
 - expected_values:
     ROGUE_ECT: 99
   response: 7640462F4678B
