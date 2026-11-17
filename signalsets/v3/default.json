@@ -45,19 +45,19 @@
   "signals": [
     {"id": "ROGUE_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019], "from": 2027 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E25"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019, 2021, 2022, 2024, 2025], "from": 2027 },
   "signals": [
     {"id": "ROGUE_TP_FR_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019], "from": 2027 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E26"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2024, 2025], "from": 2027 },
   "signals": [
     {"id": "ROGUE_TP_FL_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019], "from": 2027 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E27"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2024, 2025], "from": 2027 },
   "signals": [
     {"id": "ROGUE_TP_RR_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019], "from": 2027 },
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"22": "0E28"}, "freq": 15, "dbgfilter": { "to": 2017, "years": [2019, 2022, 2024, 2025], "from": 2027 },
   "signals": [
     {"id": "ROGUE_TP_RL_743", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
@@ -105,11 +105,11 @@
   "signals": [
     {"id": "ROGUE_TP_FL_V2", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0202"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017], "from": 2021 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0202"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2021 },
   "signals": [
     {"id": "ROGUE_TP_FR_V2", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "758", "rax": "778", "cmd": {"22": "0203"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2017], "from": 2021 },
+{ "hdr": "758", "rax": "778", "cmd": {"22": "0203"}, "freq": 5, "dbgfilter": { "to": 2014, "years": [2016, 2017], "from": 2021 },
   "signals": [
     {"id": "ROGUE_TP_RR_V2", "path": "Tires", "fmt": { "len": 8, "max": 63.75, "div": 4, "nullmin": 0, "unit": "psi" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
@@ -403,7 +403,7 @@
   "signals": [
     {"id": "ROGUE_TCM_REQ_TQ", "path": "Transmission", "fmt": { "len": 8, "max": 354, "min": -156, "mul": 2, "add": 100, "sign": true, "unit": "newtonMeters" }, "name": "Requested torque"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"22": "1114"}, "freq": 1, "dbgfilter": { "to": 2017, "from": 2019 },
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"22": "1114"}, "freq": 1,
   "signals": [
     {"id": "ROGUE_TCM_REQ_RPM", "path": "Transmission", "fmt": { "len": 8, "max": 12750, "mul": 50, "nullmax": 12700, "unit": "rpm" }, "name": "Requested engine speed"}
   ]},
