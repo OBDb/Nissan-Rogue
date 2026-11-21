@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     ROGUE_RL_WHL_SPD: 92.08
   response: 18DAF12D05624B0223F8
+- expected_values:
+    ROGUE_RL_WHL_SPD: 122.96
+  response: 18DAF12D05624B023008
