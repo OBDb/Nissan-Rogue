@@ -539,7 +539,7 @@
   "signals": [
     {"id": "ROGUE_EVAP_P_SENS_V", "path": "Battery", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "EVAP pressure sensor voltage"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "111F"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "111F"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
     {"id": "ROGUE_EOT", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
@@ -571,23 +571,23 @@
   "signals": [
     {"id": "ROGUE_ROLL_OVER_SENS_V", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Roll-over sensor voltage"}
   ]},
-{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2170"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "DA18", "rax": "18", "cmd": {"22": "2170"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
     {"id": "ROGUE_ATF_T", "path": "Transmission", "fmt": {"bix": 232, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B00"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B00"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
     {"id": "ROGUE_FL_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B01"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B01"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
     {"id": "ROGUE_FR_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B02"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B02"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
     {"id": "ROGUE_RL_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B03"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
+{ "hdr": "DA2D", "rax": "2D", "cmd": {"22": "4B03"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2023 },
   "signals": [
     {"id": "ROGUE_RR_WHL_SPD", "path": "Tires", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]}
