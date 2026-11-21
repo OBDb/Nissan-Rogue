@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     ROGUE_TP_FR_743: null
   response: '76304620E2500'
+- expected_values:
+    ROGUE_TP_FR_743: 31
+  response: 76304620E257C

@@ -1,0 +1,5 @@
+command_id: DA18.18.221115
+test_cases:
+- expected_values:
+    ROGUE_EVAP_P_SENS_V: 0
+  response: 18DAF1180462111500
