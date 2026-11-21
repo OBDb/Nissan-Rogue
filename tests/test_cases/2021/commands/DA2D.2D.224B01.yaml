@@ -1,0 +1,11 @@
+command_id: DA2D.2D.224B01
+test_cases:
+- expected_values:
+    ROGUE_FR_WHL_SPD: 0
+  response: 18DAF12D05624B010000
+- expected_values:
+    ROGUE_FR_WHL_SPD: 76.72
+  response: 18DAF12D05624B011DF8
+- expected_values:
+    ROGUE_FR_WHL_SPD: 84.99
+  response: 18DAF12D05624B012133
