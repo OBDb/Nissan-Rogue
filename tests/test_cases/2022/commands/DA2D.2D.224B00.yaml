@@ -4,8 +4,8 @@ test_cases:
     ROGUE_FL_WHL_SPD: 0
   response: 18DAF12D05624B000000
 - expected_values:
-    ROGUE_FL_WHL_SPD: 25.48
-  response: 18DAF12D05624B0009F4
+    ROGUE_FL_WHL_SPD: 28.06
+  response: 18DAF12D05624B000AF6
 - expected_values:
-    ROGUE_FL_WHL_SPD: 91.85
-  response: 18DAF12D05624B0023E1
+    ROGUE_FL_WHL_SPD: 123.46
+  response: 18DAF12D05624B00303A
