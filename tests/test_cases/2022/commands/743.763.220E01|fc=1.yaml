@@ -10,5 +10,5 @@ test_cases:
     ROGUE_ODO: 109295
   response: 76306620E0101AAEF
 - expected_values:
-    ROGUE_ODO: 112914
-  response: 76306620E0101B912
+    ROGUE_ODO: 115572
+  response: 76306620E0101C374
